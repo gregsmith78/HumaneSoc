@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace HumaneSociety
 {
-    class Cage
+    public class Cage
     {
+        Animal animal;
+
+    public Cage()
+    {
+
+    }
+
     }
 }

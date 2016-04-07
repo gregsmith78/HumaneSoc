@@ -6,9 +6,14 @@ using System.Threading.Tasks;
 
 namespace HumaneSociety
 {
-    class Animal
+    public class Animal
     {
         int age;
         string color;
+
+        public int Age { get; set; }
+
+        public string Color { get; set; }
+
     }
 }

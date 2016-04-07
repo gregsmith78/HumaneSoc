@@ -10,6 +10,19 @@ namespace HumaneSociety
     {
         static void Main(string[] args)
         {
+            Menu menu = new Menu();
+            menu.DisplayMenu();
+           
+            Center center = new Center();
+            Adopter greg = new Adopter();
+            Animal fido = new Animal();
+            center.CreateCages();
+            greg.Adopt(fido);
+            greg.ShowPetList();
+            //greg.PrintProfile();
+            Console.ReadKey();
+           
+
         }
     }
 }
